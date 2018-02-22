@@ -156,6 +156,7 @@ h4,h6 {
   #formContainer {
     height:100vh;
     margin-top:10%;
+    padding-top:10%;
   }
 
   #teacherInputHead {
