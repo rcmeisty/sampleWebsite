@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Brdyge4Schools</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./materialize/css/materialize.css">
+  <script
+  src="http://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+  <script src="./materialize/js/materialize.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="./customCSS.css">
+  
+</head>
+
+
+<body>
+
+
+    <div class="navbar-fixed">
+        <nav class="transparent z-depth-0">
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo"><img id="logo" src="./img/b4s.png"></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a class="navText" href="#">About</a></li>
+              <li><a class="navText" href="#">Download Mobile</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+
+
+     <div class="jumbotron jumbotron-fluid">
+        <div id="jumboText" class="row">
+          <h1 class="titleDisplay">Brydge4Schools</h1>
+        </div>
+          <div class="row">
+              <p class="lead">Bridging the gap between parents and teachers.</p>
+          </div>
+          <div class="center-btn">
+            <a class="waves-effect waves-light btn" href="#connectTeacher">Connect with your Teacher</a>
+          </div>
+      </div>
+
+
+
+
+
+<div id="connectTeacher">
+  <div id="selectTeacherRow" class="row">
+    <h1 class="titleDisplay">Select your teacher</h1>
+      <select id="teacherSelect" class="btn btn-block btn-secondary">
+          <option>Select your teacher</option>
+          <option href="#sliderRow" value="butt">Ms. Butt</option>
+          <option href="#sliderRow" value="manohar">Ms. Manohar</option>
+          <option href="#sliderRow" value="sanders">Ms. Sanders</option>
+        </select>
+  </div>
+  <br>
+  <div class="center-btn">
+      <a class="waves-effect waves-light btn" href="#sliderContainer">See Teacher's Lessons</a>
+  </div>
+</div>
+
+
+
+<div id="sliderContainer">
+  <div class="row">
+      <h1 class="sliderHeader">Select A Day</h1>
+  </div>
+ <div id="sliderRow" class="row">
+
+
+    <div class="carousel">
+        <div class="carousel-item">
+            <div class="card">
+                <div class="card-content">
+                  <span class="card-title activator">Feb 21
+                    <br>
+                    Conditionals
+                    <br>
+                    <i class="waves-effect waves-light btn material-icons center">Today's Objective</i>
+                  </span>
+                  <a class="waves-effect waves-light btn modal-trigger" href="#feb21">Today's Questions</a>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title">Conditionals</span>  
+                  <p>Today students were able to form conditionals in JavaScript and create a mini decision-maker program.</p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="card">
+                <div class="card-content">
+                  <span class="card-title activator">Feb 22
+                    <br>
+                    Boolean Values
+                    <br>
+                    <i class="waves-effect waves-light btn material-icons center">Today's Objective</i>
+                  </span>
+                  <a class="waves-effect waves-light btn modal-trigger" href="#feb22">Today's Questions</a>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title">Boolean Values</span>  
+                  <p>Today students were able to learn how programs tell if something is true or false through boolean values.</p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="card">
+                <div class="card-content">
+                  <span class="card-title activator">Feb 23
+                    <br>
+                    Operators
+                    <br>
+                    <i class="waves-effect waves-light btn material-icons center">Today's Objective</i>
+                  </span>
+                  <a class="waves-effect waves-light btn modal-trigger" href="#feb23">Today's Questions</a>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title">Operators</span>  
+                  <p>Today students were able to use operators like >, <, and == in order to use math in their conditionals.</p>
+                </div>
+            </div>
+      </div>
+
+
+  </div>
+</div>
+
+<div id="feb21" class="modal">
+  <div class="modal-content">
+    <h3 class="modalHeader">Questions for February 21</h3>
+      <h6>Question 1</h6>
+      <p>What is a conditional?</p>
+      <h6>Answer 1</h6>
+      <p>A function that runs when certain parameters are met. </p>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Got it!</a>
+      </div>
+</div>
+
+<div id="feb22" class="modal">
+    <div class="modal-content">
+      <h3 class="modalHeader">Questions for February 22</h3>
+        <h6>Question 1</h6>
+        <p>What is a boolean value?</p>
+        <h6>Answer 1</h6>
+        <p>A boolean value is a true or false value stored in a program.</p>
+      </div>
+      <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Got it!</a>
+        </div>
+  </div>
+
+
+  <div id="feb23" class="modal">
+      <div class="modal-content">
+        <h3 class="modalHeader">Questions for February 23</h3>
+          <h6>Question 1</h6>
+          <p>How would you write a conditional that checks to see if the value of a variable age is greater than or equal to 18?</p>
+          <h6>Answer 1</h6>
+          <p>if (age >= 18)</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Got it!</a>
+          </div>
+    </div>
+
+
+
+
+
+    <div id="formContainer" class="row">
+      <h1 id="teacherInputHead">Teacher Input</h1>
+        <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                  <input type="text" class="datepicker">
+                <label for="first_name">Choose Date for Lesson</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Name of Lesson</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input type="text" class="validate">
+                <label for="text">Objective</label>
+              </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                  <input type="text" class="validate">
+                  <label for="text">Question 1</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                  <input type="text" class="validate">
+                  <label for="text">Question 2</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                  <input type="text" class="validate">
+                  <label for="text">Answer 2</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                  <input type="text" class="validate">
+                  <label for="text">Question 3</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                  <input type="text" class="validate">
+                  <label for="text">Answer 3</label>
+                </div>
+            </div>
+              </div>
+            </div>
+          </form>
+
+
+    </div>
+<script
+  src="http://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+  <script src="./materialize/js/materialize.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+
+      $(document).ready(function(){
+    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+  });
+
+  $('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+
+    $('.datepicker').pickadate({
+    selectMonths: true, // Creates a dropdown to control month
+    selectYears: 15, // Creates a dropdown of 15 years to control year,
+    today: 'Today',
+    clear: 'Clear',
+    close: 'Ok',
+    closeOnSelect: false // Close upon selecting a date,
+  });
+        
+          
+
+</script>
+
+</body>
+</html>
